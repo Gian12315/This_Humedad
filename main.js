@@ -11,8 +11,6 @@
     const semana = 'http://localhost:3000/metrics/2024/12/4?is-week=true'
     const url_image = 'http://localhost:3000/images/2024-05-06T02_13_21.450174953Z.png';
 
-
-
     bot.start((ctx)=>{
     ctx.reply('este es un bot para medir la humedad de la planta'+ '\nsi quiere informacion de los comandos use /help');
     })
